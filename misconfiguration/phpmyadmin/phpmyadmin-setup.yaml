@@ -19,6 +19,8 @@ requests:
       - "{{BaseURL}}/sysadmin/phpMyAdmin/scripts/setup.php"
       - "{{BaseURL}}/phpmyadmin/setup/index.php"
       - "{{BaseURL}}/pma/setup/index.php"
+      - "{{BaseURL}}/phpmyadmin/setup/"
+      - "{{BaseURL}}/phpmyadmin/setup.php"
 
     stop-at-first-match: true
     matchers-condition: and
